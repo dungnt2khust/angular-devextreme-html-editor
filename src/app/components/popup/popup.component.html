@@ -1,0 +1,28 @@
+
+
+
+<dx-popup
+    [width]="'auto'"
+    [height]="'auto'"
+    [showTitle]="true"
+    title="Generating PDF"
+    [dragEnabled]="false"
+    [closeOnOutsideClick]="true"
+    [(visible)]="this.showPopup"
+    (onHidden)="this.closeDialog()">
+
+    <div class="row m-2">
+        <div class="col-md-auto">
+          <div style="height: 3rem; width: 3rem">
+            <h1>Loading</h1>
+          </div>
+        </div>
+        <div class="col">
+            <h4>Report Generating</h4>
+            <p>Please wait for the download to complete.  If you close this window the download will be cancelled.<br>The download will begin shortly.</p>
+        </div>
+      </div>
+
+      	<dx-text-box [(value)]="this.text">
+        </dx-text-box>
+</dx-popup>
