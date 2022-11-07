@@ -11,7 +11,7 @@ import {
   DxValidatorModule,
   DxPopupModule,
   DxButtonModule,
-  DxHtmlEditorModule,
+  DxHtmlEditorModule
 } from 'devextreme-angular';
 
 import { AppComponent } from './app.component';
