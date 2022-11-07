@@ -11,8 +11,8 @@
     "@angular/platform-browser-dynamic": "^8.0.0",
     "@angular/router": "^8.0.0",
     "core-js": "2",
-    "devextreme": "^19.2.6",
-    "devextreme-angular": "^19.2.6",
+    "devextreme": "^20.2.12",
+    "devextreme-angular": "^20.2.12",
     "rxjs": "^6.5.2",
     "zone.js": "^0.9.1"
   },
